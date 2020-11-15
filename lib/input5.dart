@@ -9,6 +9,7 @@ class input5 extends StatefulWidget {
 class _MyHomePageState extends State<input5> {
   @override
   Widget build(BuildContext context) {
+    var FontSizeButton = 40.0;
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Input Mode (整数)'),
@@ -20,11 +21,11 @@ class _MyHomePageState extends State<input5> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             new RaisedButton(key:null, onPressed:buttonPressed,
-                color: const Color(0xFFEF6C00),
+                color: Colors.indigo[800],
                 child:
                 new Text(
                   "因数分解",
-                  style: new TextStyle(fontSize:45.0,
+                  style: new TextStyle(fontSize:FontSizeButton,
                       color: Colors.white,
                       fontWeight: FontWeight.w400,
                       fontFamily: "Roboto"),
@@ -32,11 +33,11 @@ class _MyHomePageState extends State<input5> {
             ),
 
             new RaisedButton(key:null, onPressed:buttonPressed,
-                color: const Color(0xFFEF6C00),
+                color: Colors.indigo[800],
                 child:
                 new Text(
                   "平方根が整数",
-                  style: new TextStyle(fontSize:45.0,
+                  style: new TextStyle(fontSize:FontSizeButton,
                       color: Colors.white,
                       fontWeight: FontWeight.w400,
                       fontFamily: "Roboto"),

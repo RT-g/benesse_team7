@@ -18,63 +18,78 @@ class _input4State extends State<input4> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             new RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)
+                ),
                 key: null,
                 onPressed: buttonPressed,
-                color: const Color(0xFFe0e0e0),
+                color: Colors.indigo[800],
                 child: new Text(
                   '式 * 式 = 整数の変形',
                   style: new TextStyle(
                       fontSize: 30.0,
-                      color: const Color(0xFF000000),
-                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
                       fontFamily: "Roboto"),
                 )),
             new RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)
+                ),
                 key: null,
                 onPressed: buttonPressed,
-                color: const Color(0xFFe0e0e0),
+                color: Colors.indigo[800],
                 child: new Text(
                   '倍数や余りに着目',
                   style: new TextStyle(
                       fontSize: 30.0,
-                      color: const Color(0xFF000000),
-                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
                       fontFamily: "Roboto"),
                 )),
             new RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)
+                ),
                 key: null,
                 onPressed: buttonPressed,
-                color: const Color(0xFFe0e0e0),
+                color: Colors.indigo[800],
                 child: new Text(
                   '実験',
                   style: new TextStyle(
                       fontSize: 30.0,
-                      color: const Color(0xFF000000),
-                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
                       fontFamily: "Roboto"),
                 )),
             new RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)
+                ),
                 key: null,
                 onPressed: buttonPressed,
-                color: const Color(0xFFe0e0e0),
+                color: Colors.indigo[800],
                 child: new Text(
                   '対称性に着目',
                   style: new TextStyle(
                       fontSize: 30.0,
-                      color: const Color(0xFF000000),
-                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
                       fontFamily: "Roboto"),
                 )),
             new RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)
+                ),
                 key: null,
                 onPressed: buttonPressed,
-                color: const Color(0xFFe0e0e0),
+                color: Colors.indigo[800],
                 child: new Text(
                   '条件から範囲を絞る',
                   style: new TextStyle(
                       fontSize: 30.0,
-                      color: const Color(0xFF000000),
-                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
                       fontFamily: "Roboto"),
                 ))
           ]),

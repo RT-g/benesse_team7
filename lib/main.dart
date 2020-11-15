@@ -6,6 +6,12 @@ import 'input3.dart';
 import 'input4.dart';
 import 'input5.dart';
 import 'input6.dart';
+import 'output1.dart';
+import 'output2.dart';
+import 'output3.dart';
+import 'output4.dart';
+import 'output5.dart';
+
 
 
 void main() {
@@ -29,6 +35,11 @@ class MyApp extends StatelessWidget {
         '/four': (context) => input4(),
         '/five': (context) => input5(),
         '/six': (context) => input6(),
+        '/output1': (context) => output1(),
+        '/output2': (context) => output2(),
+        '/output3': (context) => output3(),
+        '/output4': (context) => output4(),
+        '/output5': (context) => output5(),
 
       },
     );
