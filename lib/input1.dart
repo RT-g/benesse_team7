@@ -63,7 +63,7 @@ class _MyHomePageState extends State<input1> {
                   children: <Widget>[
                     new RaisedButton(
                         key: null,
-                        onPressed: () {},
+                        onPressed: buttonPressedOutPut,
                         color: const Color(0xFFEF6C00),
                         child: new Text(
                           "Outputを始める",
@@ -81,5 +81,8 @@ class _MyHomePageState extends State<input1> {
 
   void buttonPressed() {
     Navigator.pushNamed(context, '/two');
+  }
+  void buttonPressedOutPut(){
+    Navigator.pushNamed(context, '/output1');
   }
 }
