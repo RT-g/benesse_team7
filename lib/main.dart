@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'input1.dart';
 import 'input2.dart';
-// import 'input3.dart';
-// import 'input4.dart';
-// import 'input5.dart';
-// import 'input6.dart';
+import 'input3.dart';
+import 'input4.dart';
+import 'input5.dart';
+import 'input6.dart';
 
 
 void main() {
@@ -25,10 +25,10 @@ class MyApp extends StatelessWidget {
       routes: {
         '/one': (context) => input1(),
         '/two': (context) => input2(),
-        // '/three': (context) => input3(),
-        // '/four': (context) => input4(),
-        // '/five': (context) => input5(),
-        // '/six': (context) => input6(),
+        '/three': (context) => input3(),
+        '/four': (context) => input4(),
+        '/five': (context) => input5(),
+        '/six': (context) => input6(),
 
       },
     );

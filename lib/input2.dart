@@ -121,6 +121,6 @@ class _MyHomePageState extends State<input2> {
     );
   }
   void buttonPressed(){
-    Navigator.pushNamed(context,'/one');
+    Navigator.pushNamed(context,'/three');
   }
 }
