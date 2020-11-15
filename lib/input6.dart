@@ -72,7 +72,7 @@ class _MyHomePageState extends State<input6> {
       );
   }
   void buttonPressed(){
-    Navigator.pushNamed(context, '/five');
+    Navigator.pushNamed(context, '/one');
   }
 }
 
