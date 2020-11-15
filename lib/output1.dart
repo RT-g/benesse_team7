@@ -9,6 +9,10 @@ class output1 extends StatefulWidget {
 class _MyHomePageState extends State<output1> {
   @override
   Widget build(BuildContext context) {
+    var ButtonWidth = 150.0;
+    var ButtonHeight = 150.0;
+    var FontSize = 35.0;
+
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Output Mode'),
@@ -24,28 +28,36 @@ class _MyHomePageState extends State<output1> {
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "整数",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "整数",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   ),
 
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "不等式",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "不等式",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   )
                 ]
 
@@ -56,28 +68,36 @@ class _MyHomePageState extends State<output1> {
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "積分",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "積分",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   ),
 
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "図形",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "図形",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   )
                 ]
 
@@ -88,28 +108,36 @@ class _MyHomePageState extends State<output1> {
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "確率",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "確率",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   ),
 
-                  new RaisedButton(key:null, onPressed:buttonPressed,
-                      color: const Color(0xFF283593),
-                      child:
-                      new Text(
-                        "etc.",
-                        style: new TextStyle(fontSize:25.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: "Roboto"),
-                      )
+                  SizedBox(
+                    width: ButtonWidth,
+                    height: ButtonHeight,
+                    child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        color: const Color(0xFF283593),
+                        child:
+                        new Text(
+                          "etc.",
+                          style: new TextStyle(fontSize:FontSize,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: "Roboto"),
+                        )
+                    ),
                   )
                 ]
 

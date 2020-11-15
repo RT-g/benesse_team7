@@ -43,6 +43,9 @@ class _MyHomePageState extends State<input1> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     new RaisedButton(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50)
+                      ),
                       key: null,
                       onPressed: buttonPressed,
                       color: const Color(0xFFEF6C00),
@@ -62,6 +65,9 @@ class _MyHomePageState extends State<input1> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     new RaisedButton(
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         key: null,
                         onPressed: buttonPressedOutPut,
                         color: const Color(0xFFEF6C00),
