@@ -31,13 +31,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "整数",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w400,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
@@ -47,13 +50,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "不等式",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
@@ -71,13 +77,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "積分",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
@@ -87,13 +96,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "図形",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
@@ -111,13 +123,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "確率",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
@@ -127,13 +142,16 @@ class _MyHomePageState extends State<input2> {
                     width: ButtonWidth,
                     height: ButtonHeight,
                     child: new RaisedButton(key:null, onPressed:buttonPressed,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)
+                        ),
                         color: const Color(0xFFEF6C00),
                         child:
                         new Text(
                           "etc.",
                           style: new TextStyle(fontSize:FontSize,
                               color: Colors.white,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w600,
                               fontFamily: "Roboto"),
                         )
                     ),
